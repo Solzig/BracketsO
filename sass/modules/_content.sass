@@ -1,0 +1,48 @@
+.section
+    &-content
+    
+.content
+    &-wrap
+        display: flex
+        justify-content: space-around
+        align-items: top
+        flex-wrap: wrap
+        background: #ffffff url("../img/content/screwy_robot.png") no-repeat right bottom
+        background-size: 22.9%
+        padding: 50px 0
+    &-column    
+        padding-bottom: 15px
+        padding-right: 0px
+        margin-right: 25px
+        max-width: 295px
+        &:last-child
+            margin: 0  
+        &__title
+            margin: 0
+            margin-bottom: 24px
+            color: #000000
+            +fonts-headline
+            font-size: 24px
+            font-weight: 400
+            line-height: 21px
+        &__text
+            color: #454545
+            font-size: 14px
+            font-weight: 400
+            line-height: 21px
+        &__section
+            padding-bottom: 24px
+            &_title 
+                margin: 0
+                color: #000000  
+                font-size: 14px   
+            &_herf
+                color: #0083e8
+                font-size: 18px
+                font-weight: 400    
+                text-decoration: none
+.content-column__section_href-blog 
+    display: block
+    color: #0083e8
+    text-decoration: none
+    font-weight: bold

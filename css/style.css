@@ -195,4 +195,22 @@ img { max-width: 100%; }
 
 @media (max-width: 376px) { .grid-item__image { max-width: 80%; }
   .grid-item__title { font-size: 12px; } }
+
+.content-wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: top; -ms-flex-align: top; align-items: top; -ms-flex-wrap: wrap; flex-wrap: wrap; background: #ffffff url("../img/content/screwy_robot.png") no-repeat right bottom; background-size: 22.9%; padding: 50px 0; }
+
+.content-column { padding-bottom: 15px; padding-right: 0px; margin-right: 25px; max-width: 295px; }
+
+.content-column:last-child { margin: 0; }
+
+.content-column__title { margin: 0; margin-bottom: 24px; color: #000000; font-family: 'SourceSansPro SemiBold', "Arial", sans-serif; font-size: 24px; font-weight: 400; line-height: 21px; }
+
+.content-column__text { color: #454545; font-size: 14px; font-weight: 400; line-height: 21px; }
+
+.content-column__section { padding-bottom: 24px; }
+
+.content-column__section_title { margin: 0; color: #000000; font-size: 14px; }
+
+.content-column__section_herf { color: #0083e8; font-size: 18px; font-weight: 400; text-decoration: none; }
+
+.content-column__section_href-blog { display: block; color: #0083e8; text-decoration: none; font-weight: bold; }
 /*# sourceMappingURL=style.css.map */
