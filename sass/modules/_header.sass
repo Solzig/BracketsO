@@ -1,0 +1,70 @@
+.header 
+    background-color: #ffffff
+    &-wrap 
+        display: flex
+        justify-content: space-between
+        align-items: center
+        flex-wrap: wrap
+    &__logo 
+        display: flex
+        justify-content: space-around
+        align-items: center
+        margin: 20px 0
+        font-size: 24px
+        font-weight: bold
+        &-img 
+            display: block
+            height: 20px
+            width: 20px
+            margin-right: 8px
+            background: url("../img/brackets_logo.png") no-repeat center
+            background-size: contain
+
+.social
+    &__link 
+        margin-right: 15px
+        &-wrap
+            display: flex
+            justify-content: space-between
+            align-items: center
+        &_type
+            &-github 
+                background: url("../img/social/github.png") no-repeat center
+                background-size: contain
+                height: 22px
+                width: 22px
+            &-googlegroup 
+                background: url("../img/social/googlegroup.png") no-repeat center
+                background-size: contain
+                height: 15px
+                width: 22px
+            &-irc 
+                background: url("../img/social/irc.png") no-repeat center
+                background-size: contain
+                height: 22px
+                width: 25px
+            &-twitter 
+                background: url("../img/social/twitter.png") no-repeat center
+                background-size: contain
+                height: 18px
+                width: 22px
+            &-gplus 
+                background: url("../img/social/gplus.png") no-repeat center
+                background-size: contain
+                height: 20px
+                width: 20px
+            &-facebook 
+                background: url("../img/social/facebook.png") no-repeat center
+                background-size: contain
+                height: 20px
+                width: 20px
+            &-youtube 
+                background: url("../img/social/youtube.png") no-repeat center
+                background-size: contain
+                height: 20px
+                width: 20px
+
+@media (max-width: 376px) 
+    .header
+        &-wrap 
+            justify-content: center

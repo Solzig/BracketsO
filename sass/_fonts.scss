@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'SourceSansPro Regular';
+    font-display: swap;
+    src: url('../fonts/SourceSansPro-Regular.eot');
+    src: url('../fonts/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SourceSansPro-Regular.woff') format('woff'),
+        url('../fonts/SourceSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansPro SemiBold';
+    font-display: swap;
+    src: url('../fonts/SourceSansPro-SemiBold.eot');
+    src: url('../fonts/SourceSansPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SourceSansPro-SemiBold.woff') format('woff'),
+        url('../fonts/SourceSansPro-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin fonts-base {
+    font-family: 'SourceSansPro Regular', "Arial", sans-serif
+}
+
+@mixin fonts-headline {
+    font-family: 'SourceSansPro SemiBold', "Arial", sans-serif
+}

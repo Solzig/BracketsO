@@ -109,7 +109,7 @@ template { display: none; }
 
 @font-face { font-family: 'SourceSansPro Regular'; font-display: swap; src: url("../fonts/SourceSansPro-Regular.eot"); src: url("../fonts/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansPro-Regular.woff") format("woff"), url("../fonts/SourceSansPro-Regular.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: 'SourceSansPro-SemiBold'; font-display: swap; src: url("../fonts/SourceSansPro-SemiBold.eot"); src: url("../fonts/SourceSansPro-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansPro-SemiBold.woff") format("woff"), url("../fonts/SourceSansPro-SemiBold.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'SourceSansPro SemiBold'; font-display: swap; src: url("../fonts/SourceSansPro-SemiBold.eot"); src: url("../fonts/SourceSansPro-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansPro-SemiBold.woff") format("woff"), url("../fonts/SourceSansPro-SemiBold.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -127,15 +127,15 @@ img { max-width: 100%; }
 
 .header { background-color: #ffffff; }
 
-.header-wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 20px 0; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+.header-wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
-.header__logo { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-size: 24px; font-weight: bold; }
+.header__logo { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 20px 0; font-size: 24px; font-weight: bold; }
 
 .header__logo-img { display: block; height: 20px; width: 20px; margin-right: 8px; background: url("../img/brackets_logo.png") no-repeat center; background-size: contain; }
 
 .social__link { margin-right: 15px; }
 
-.social__link-wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 20px 0; }
+.social__link-wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
 .social__link_type-github { background: url("../img/social/github.png") no-repeat center; background-size: contain; height: 22px; width: 22px; }
 
