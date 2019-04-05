@@ -1,14 +1,16 @@
+@mixin social($url,$height,$width)    
+    background: url($url) no-repeat center
+    background-size: contain
+    height: $height
+    width: $width
+
 .header 
     background-color: #ffffff
     &-wrap 
-        display: flex
-        justify-content: space-between
-        align-items: center
+        +flex-wrap
         flex-wrap: wrap
     &__logo 
-        display: flex
-        justify-content: space-around
-        align-items: center
+        +flex-wrap
         margin: 20px 0
         font-size: 24px
         font-weight: bold
@@ -21,48 +23,28 @@
             background-size: contain
 
 .social
+    margin: 20px 0
     &__link 
         margin-right: 15px
+        &:last-child
+            margin-right: 0
         &-wrap
-            display: flex
-            justify-content: space-between
-            align-items: center
+            +flex-wrap
         &_type
             &-github 
-                background: url("../img/social/github.png") no-repeat center
-                background-size: contain
-                height: 22px
-                width: 22px
+                +social("../img/social/github.png",22px,22px)
             &-googlegroup 
-                background: url("../img/social/googlegroup.png") no-repeat center
-                background-size: contain
-                height: 15px
-                width: 22px
+                +social("../img/social/googlegroup.png",15px,22px)
             &-irc 
-                background: url("../img/social/irc.png") no-repeat center
-                background-size: contain
-                height: 22px
-                width: 25px
+                +social("../img/social/irc.png",22px,25px)
             &-twitter 
-                background: url("../img/social/twitter.png") no-repeat center
-                background-size: contain
-                height: 18px
-                width: 22px
+                +social("../img/social/twitter.png",18px,22px)
             &-gplus 
-                background: url("../img/social/gplus.png") no-repeat center
-                background-size: contain
-                height: 20px
-                width: 20px
+                +social("../img/social/gplus.png",20px,20px)
             &-facebook 
-                background: url("../img/social/facebook.png") no-repeat center
-                background-size: contain
-                height: 20px
-                width: 20px
+                +social("../img/social/facebook.png",22px,22px)
             &-youtube 
-                background: url("../img/social/youtube.png") no-repeat center
-                background-size: contain
-                height: 20px
-                width: 20px
+                +social("../img/social/youtube.png",20px,20px)
 
 @media (max-width: 376px) 
     .header
