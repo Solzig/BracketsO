@@ -113,7 +113,7 @@ template { display: none; }
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-.container { max-width: 940px; margin: auto; }
+.container { position: relative; max-width: 940px; margin: auto; }
 
 @media (max-width: 1199px) { .container { max-width: 960px; } }
 
@@ -139,15 +139,17 @@ a:hover { text-decoration: underline; }
 
 h1 { font-family: 'SourceSansPro SemiBold', "Arial", sans-serif; font-size: 45px; line-height: 60px; }
 
-h2 { font-family: 'SourceSansPro SemiBold', "Arial", sans-serif; font-size: 24px; }
+h2 { margin: 0; margin-bottom: 24px; font-family: 'SourceSansPro SemiBold', "Arial", sans-serif; font-size: 24px; }
 
-h3 { font-family: 'SourceSansPro SemiBold', "Arial", sans-serif; font-size: 20px; }
+h3 { margin: 0; font-family: 'SourceSansPro SemiBold', "Arial", sans-serif; font-size: 14px; }
 
-h4 { font-family: 'SourceSansPro SemiBold', "Arial", sans-serif; font-size: 18px; }
+h4 { font-family: 'SourceSansPro SemiBold', "Arial", sans-serif; font-size: 13px; }
 
-h5 { font-family: 'SourceSansPro SemiBold', "Arial", sans-serif; font-size: 16px; }
+h5 { font-family: 'SourceSansPro SemiBold', "Arial", sans-serif; font-size: 12px; }
 
-h6 { font-family: 'SourceSansPro SemiBold', "Arial", sans-serif; font-size: 15px; }
+h6 { font-family: 'SourceSansPro SemiBold', "Arial", sans-serif; font-size: 11px; }
+
+p { margin: 0; margin-bottom: 20px; color: #454545; }
 
 .header { background-color: #ffffff; }
 
@@ -247,8 +249,6 @@ h6 { font-family: 'SourceSansPro SemiBold', "Arial", sans-serif; font-size: 15px
 .footer-column__section:last-child { margin-right: 0; }
 
 .footer-column__section_title { margin: 0; margin-bottom: 24px; }
-
-.footer-column__section_text { padding-bottom: 21px; color: #454545; }
 
 .footer-copyright { text-align: center; }
 
