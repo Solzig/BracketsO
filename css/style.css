@@ -149,7 +149,7 @@ h5 { font-family: 'SourceSansPro SemiBold', "Arial", sans-serif; font-size: 12px
 
 h6 { font-family: 'SourceSansPro SemiBold', "Arial", sans-serif; font-size: 11px; }
 
-p { margin: 0; margin-bottom: 20px; }
+p { margin: 0; margin-bottom: 20px; color: #454545; }
 
 .header { background-color: #ffffff; }
 
@@ -249,8 +249,6 @@ p { margin: 0; margin-bottom: 20px; }
 .footer-column__section:last-child { margin-right: 0; }
 
 .footer-column__section_title { margin: 0; margin-bottom: 24px; }
-
-.footer-column__section_text { padding-bottom: 21px; color: #454545; }
 
 .footer-copyright { text-align: center; }
 
